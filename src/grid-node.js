@@ -24,4 +24,4 @@ class GridNode {
 
 export default {
     GridNode
-}
+};

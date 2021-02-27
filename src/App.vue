@@ -19,23 +19,21 @@
         </b-nav-item>
       </b-navbar-nav>
     </b-navbar>
-    <div class="container"></div>
+    <div class="container">
+      <b-row class="h-100 justify-content-center">
+        <grid></grid>
+      </b-row>
+    </div>
   </div>
 </template>
 
 <script>
-//let nodes = [];
-
-/* for (let i = 0; i < 400; i++) {
-  nodes.push(new GridNode());
-} */
+import Grid from "./components/Grid";
 
 export default {
   name: "App",
-  data: function() {
-    return {
-      nodes: [],
-    };
+  components: {
+    Grid,
   },
 };
 </script>
